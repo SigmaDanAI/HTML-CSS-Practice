@@ -1,37 +1,9 @@
-.header{
-    font-family: 'calibri';
-    font-size: 36px;
-    font-weight: 700;
-    
-}
 
-
-.header__italicPart{
+.italic{
     font-style: italic;
 }
 
-.header__nav{
-    font-size: 15px;
-
-}
-
-.header__a1:hover{
-    background-color: rgb(8, 46, 59);
-    width: 84px;
-    height: 18px;
-}
-
-.header__a2:hover{
-    background-color: rgb(8, 46, 59);
-    position: fixed;
-}
-.header__a3:hover{
-    background-color: rgb(8, 46, 59);
-}
-.header__a4:hover{
-    background-color: rgb(8, 46, 59);
-}
-.header__a5:hover{
-    background-color: rgb(8, 46, 59);
+.bold{
+    font-weight: bold;
 }
 
