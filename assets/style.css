@@ -1,3 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 18px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: underline;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+html {scroll-behavior: smooth;}
+
 
 .italic{
     font-style: italic;
@@ -7,3 +46,108 @@
     font-weight: bold;
 }
 
+.container{
+    max-width: 1640px;
+    margin: auto;
+}
+
+
+.header{
+    margin-top: 60px;
+    font-family: 'Inter';
+    position: fixed;
+    color: #fff;
+    top:0px;
+    z-index: 99;
+    width: 100%;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    font-size: 37px;
+    letter-spacing: -2.24px;
+    font-weight: 700;
+}
+
+.menu__item{
+    font-size: 15px;
+    margin-right: 60px;
+}
+
+.menu__item:visited{
+    color: #fff;
+}
+
+.menu__item:last-child{
+    margin-right: 0px;
+}
+
+
+.main{
+    margin: auto;
+    
+}
+
+.intro{
+    background-image: url('img/main-bg.png');
+    
+    min-height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    
+}
+
+.intro__container{
+    min-height: 100vh;
+    max-width: 68.94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.intro__title{
+    font-family: 'Six Caps';
+    font-size: 240px;
+    color: #fff;
+    
+}
+
+
+.intro__advantages-item{
+    margin-bottom: 60px;
+    padding: 29px 63px; /*clockwise*/ /* padding: 29px 63px 29px 63px; */
+    transition: .2s;
+}
+
+.intro__advantages-item:hover{
+    background-color: rgba(0, 0, 0, .3);
+}
+
+
+.intro__advantages-item:last-child{
+    margin-bottom: 0px;
+}
+
+
+.intro__advantages-title{
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 21px;
+}
+
+.intro__advantages-description{
+    font-family: 'Inter';
+    color: #fff; 
+    line-height: 150%;
+    font-size: 18px;
+    margin-top: 15px;
+    max-width: 250px;
+}
