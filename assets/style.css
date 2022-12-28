@@ -53,7 +53,7 @@ html {scroll-behavior: smooth;}
 
 
 .header{
-    margin-top: 60px;
+    margin-top: 38px;
     font-family: 'Inter';
     position: fixed;
     color: #fff;
@@ -71,7 +71,7 @@ html {scroll-behavior: smooth;}
 
 .logo{
     font-size: 37px;
-    letter-spacing: -2.24px;
+    letter-spacing: -3.8px;
     font-weight: 700;
 }
 
@@ -91,7 +91,6 @@ html {scroll-behavior: smooth;}
 
 .main{
     margin: auto;
-    
 }
 
 .intro{
@@ -121,8 +120,9 @@ html {scroll-behavior: smooth;}
 }
 
 
+
 .intro__advantages-item{
-    margin-bottom: 60px;
+    margin-bottom: 9px;
     padding: 29px 63px; /*clockwise*/ /* padding: 29px 63px 29px 63px; */
     transition: .2s;
 }
@@ -150,4 +150,9 @@ html {scroll-behavior: smooth;}
     font-size: 18px;
     margin-top: 15px;
     max-width: 250px;
+}
+
+
+@media all and (max-width: 500px){
+    
 }
